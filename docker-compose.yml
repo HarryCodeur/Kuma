@@ -1,0 +1,7 @@
+services:  
+  uptime-kuma:
+    restart: always
+    volumes:
+      - ./data:/app/data
+    container_name: uptimekuma
+    image: louislam/uptime-kuma
